@@ -1,1 +1,133 @@
-.promo {}
+.promo {
+    padding-top: 105px;
+    width: 1920px;
+    height: 738px;
+    background: url('../img/promo/promo-bg.jpg') center/cover no-repeat;
+    &__wrap {
+        display: flex;
+        gap: 58px;
+    }
+    &__info {
+        padding-top: 37px;
+        width: 655px;
+        height: 411px;
+        color: #fff;
+    }
+    &__title {
+        font-weight: 800;
+        font-size: 67px;
+        line-height: 70px;
+        text-transform: uppercase;
+    }
+    &__descr-first {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 29px;
+        line-height: 70px
+    }
+    &__hr {
+        margin-top: 27px;
+        margin-bottom: 30px;
+        width: 462px;
+        height: 2px;
+        background: #FFFFFF;
+        border-radius: 60%;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+    }
+    &__descr-second {
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        .first-span,
+        .second-span {
+            color: $orange;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .first-span {
+            line-height: 33px;
+        }
+        .second-span {
+            margin-top: 10px;
+            display: block;
+            line-height: 29px;
+        }
+    }
+    &__consultation {
+        padding: 50px;
+        width: 890px;
+        height: 461px;
+        background-color: $orange;
+        border-radius: 30px;
+        box-shadow: 10px 25px 45px rgba(0, 0, 0, 0.15);
+        &-title {
+            text-align: center;
+            font-weight: 800;
+            font-size: 87px;
+            line-height: 106px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: $black;
+            span {
+                display: block;
+                margin-top: -11px;
+                font-weight: 400;
+                font-size: 29px;
+                line-height: 42px;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+        }
+        &-descr {
+            text-align: center;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        &-form {
+            margin-top: 30px;
+        }
+        &-inputs {
+            display: flex;
+            gap: 20px;
+        }
+        input {
+            padding: 20px;
+            border: none;
+            width: 385px;
+            height: 65px;
+            border-radius: 5px;
+            &::-moz-placeholder {
+                font-weight: 300;
+                opacity: 0.5;
+                font-size: 19px;
+                color: #5C5C5C;
+            }
+            &::-webkit-input-placeholder {
+                font-weight: 300;
+                font-size: 19px;
+                color: #5C5C5C;
+                opacity: 0.5;
+            }
+        }
+        &-btn {
+            color: #fff;
+            Width: 355px;
+            Height: 65px;
+            background: $black;
+            box-shadow: 4px 4px 8px rgba(23, 55, 95, 0.2);
+            border-radius: 43px;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: block;
+        }
+    }
+}
