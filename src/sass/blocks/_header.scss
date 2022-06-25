@@ -1,0 +1,63 @@
+.header {
+    padding: 20px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrap-logo {
+        display: flex;
+        gap: 45px;
+        align-items: center;
+    }
+    &__logo {
+        object-fit: cover;
+        height: auto;
+        width: 206px;
+    }
+    &__hr {
+        width: 2px;
+        height: 80px;
+        background: #3B393C;
+        border-radius: 60%;
+    }
+    &__title {
+        width: 371px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: $black;
+    }
+    &__wrap-feedback {
+        align-items: center;
+        display: flex;
+        gap: 50px;
+    }
+    &__phone {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 10px;
+            object-fit: cover;
+            height: auto;
+            width: 20px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: $black;
+        }
+    }
+    &__btn {
+        Width: 250px;
+        Height: 50px;
+        background: $orange;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
+}
