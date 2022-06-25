@@ -8,6 +8,14 @@
     padding: 0;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: $black;
+}
+
 // .hide {
 //     visibility: hidden;
 //     opacity: 0;
@@ -37,4 +45,5 @@ body {
 
 @import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/benefit';
 // @import 'blocks/project';

@@ -1,0 +1,33 @@
+.benefit {
+    padding-top: 103px;
+    background: url('../img/benefit/frame.png') center no-repeat;
+    height: 709px;
+    &__wrap {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 80px 80px;
+        row-gap: 93px;
+    }
+    &__item {
+        gap: 40px;
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        object-fit: contain;
+        height: 100%;
+        width: 80px;
+    }
+    &__descr {
+        width: 400px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.05em;
+        color: $black;
+    }
+    span {
+        display: block;
+    }
+}
