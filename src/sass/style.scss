@@ -34,7 +34,7 @@ button {
 }
 
 body {
-    max-width: 1920px;
+    max-width: 1910px;
     margin: 0 auto;
 }
 
@@ -46,4 +46,6 @@ body {
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/benefit';
+@import 'blocks/property';
+@import 'blocks/investment';
 // @import 'blocks/project';

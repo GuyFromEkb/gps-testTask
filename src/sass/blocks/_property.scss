@@ -1,0 +1,54 @@
+.property {
+    margin-top: 44px;
+    &__wrap-top {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+    }
+    &__item {
+        height: 416px;
+        position: relative;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #fff;
+    }
+    &__btn {
+        margin-top: 20px;
+        height: 45px;
+        width: 258px;
+        background: #FAC86E;
+        box-shadow: 4px 4px 8px rgba(23, 55, 95, 0.2);
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: $black;
+    }
+    &__studio {
+        background: url('../img/property/appartment.jpg') bottom no-repeat;
+    }
+    &__tanhouse {
+        background: url('../img/property/tanhause.jpg') bottom no-repeat;
+    }
+    &__villa {
+        background: url('../img/property/villy.jpg') bottom no-repeat;
+    }
+    &__wrap-bottom {
+        margin-top: 1px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1px;
+    }
+    &__item-inner {
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+    }
+}
