@@ -1,0 +1,17 @@
+.consultation {
+    padding-top: 80px;
+    background: url('../img/consultation/consultation-bg.jpg') center/cover no-repeat;
+    margin-top: 88px;
+    height: 398px;
+    color: #fff;
+    &__title {
+        color: #fff;
+    }
+    &__subtitle {
+        margin-top: 17px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+}

@@ -92,42 +92,5 @@
             text-transform: uppercase;
             color: #fff;
         }
-        &-form {
-            margin-top: 30px;
-        }
-        &-inputs {
-            display: flex;
-            gap: 20px;
-        }
-        input {
-            padding: 20px;
-            border: none;
-            width: 385px;
-            height: 65px;
-            border-radius: 5px;
-            &::-moz-placeholder {
-                font-weight: 300;
-                opacity: 0.5;
-                font-size: 19px;
-                color: #5C5C5C;
-            }
-            &::-webkit-input-placeholder {
-                font-weight: 300;
-                font-size: 19px;
-                color: #5C5C5C;
-                opacity: 0.5;
-            }
-        }
-        &-btn {
-            color: #fff;
-            Width: 355px;
-            Height: 65px;
-            background: $black;
-            box-shadow: 4px 4px 8px rgba(23, 55, 95, 0.2);
-            border-radius: 43px;
-            margin: 0 auto;
-            margin-top: 30px;
-            display: block;
-        }
     }
 }

@@ -16,14 +16,6 @@
     color: $black;
 }
 
-// .hide {
-//     visibility: hidden;
-//     opacity: 0;
-// }
-// .show {
-//     visibility: visible;
-//     opacity: 1;
-// }
 button {
     outline: none!important;
     transition-duration: .2s;
@@ -45,7 +37,8 @@ body {
 
 @import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/form';
 @import 'blocks/benefit';
 @import 'blocks/property';
 @import 'blocks/investment';
-// @import 'blocks/project';
+@import 'blocks/consultation';
