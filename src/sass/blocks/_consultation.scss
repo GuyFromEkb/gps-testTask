@@ -1,13 +1,15 @@
 .consultation {
-    padding-top: 80px;
+    padding: 77px 0 0 20px;
     background: url('../img/consultation/consultation-bg.jpg') center/cover no-repeat;
     margin-top: 88px;
     height: 398px;
     color: #fff;
     &__title {
+        margin-right: 20px;
         color: #fff;
     }
     &__subtitle {
+        // padding-left: 20px;
         margin-top: 17px;
         font-weight: 400;
         font-size: 30px;

@@ -1,14 +1,14 @@
 .promo {
-    padding-top: 105px;
-    // width: 1920px;
+    padding-top: 104px;
+    // padding-left: 17px;
     height: 738px;
     background: url('../img/promo/promo-bg.jpg') center/cover no-repeat;
     &__wrap {
         display: flex;
-        gap: 58px;
+        gap: 62px;
     }
     &__info {
-        padding-top: 37px;
+        padding-top: 25px;
         width: 655px;
         height: 411px;
         color: #fff;
@@ -20,15 +20,15 @@
         text-transform: uppercase;
     }
     &__descr-first {
+        margin-top: 14px;
         text-transform: uppercase;
         font-weight: 300;
         font-size: 29px;
         line-height: 70px
     }
     &__hr {
-        margin-top: 27px;
-        margin-bottom: 30px;
-        width: 462px;
+        margin: 30px auto;
+        width: 460px;
         height: 2px;
         background: #FFFFFF;
         border-radius: 60%;
@@ -66,6 +66,7 @@
         border-radius: 30px;
         box-shadow: 10px 25px 45px rgba(0, 0, 0, 0.15);
         &-title {
+            padding-left: 5px;
             text-align: center;
             font-weight: 800;
             font-size: 87px;
@@ -84,6 +85,7 @@
             }
         }
         &-descr {
+            margin-top: 10px;
             text-align: center;
             font-weight: 600;
             font-size: 20px;

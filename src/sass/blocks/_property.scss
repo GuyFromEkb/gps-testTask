@@ -1,6 +1,10 @@
 .property {
-    margin-top: 44px;
+    margin-top: 38px;
+    &__title {
+        // padding-left: 20px;
+    }
     &__wrap-top {
+        // padding-left: 5px;
         margin-top: 60px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -31,6 +35,12 @@
         color: $black;
     }
     &__studio {
+        background: url('../img/property/studio.jpg') bottom no-repeat;
+    }
+    &__appartament {
+        background: url('../img/property/penthouse.jpg') bottom no-repeat;
+    }
+    &__penthouse {
         background: url('../img/property/appartment.jpg') bottom no-repeat;
     }
     &__tanhouse {
@@ -40,9 +50,10 @@
         background: url('../img/property/villy.jpg') bottom no-repeat;
     }
     &__wrap-bottom {
+        // padding-left: 6px;
         margin-top: 1px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1px;
     }
     &__item-inner {

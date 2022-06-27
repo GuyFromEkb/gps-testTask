@@ -5,14 +5,14 @@
         gap: 20px;
     }
     input {
-        padding: 20px;
+        padding: 21px 20px 20px 19px;
         border: none;
         width: 385px;
         height: 65px;
         border-radius: 5px;
         &::-moz-placeholder {
             font-weight: 300;
-            opacity: 0.5;
+            opacity: 0.4;
             font-size: 19px;
             color: #5C5C5C;
         }
@@ -20,11 +20,10 @@
             font-weight: 300;
             font-size: 19px;
             color: #5C5C5C;
-            opacity: 0.5;
+            opacity: 0.4;
         }
     }
     &__btn {
-        color: #fff;
         Width: 355px;
         Height: 65px;
         background: $black;
@@ -33,6 +32,11 @@
         margin: 0 auto;
         margin-top: 30px;
         display: block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
     &_consultation {
         margin-top: 60px;
@@ -42,6 +46,14 @@
         gap: 20px;
         input {
             height: 57px;
+            &::-moz-placeholder {
+                font-weight: 400;
+                font-size: 14px;
+            }
+            &::-webkit-input-placeholder {
+                font-weight: 400;
+                font-size: 14px;
+            }
         }
     }
     &__btn_consultation {

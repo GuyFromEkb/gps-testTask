@@ -1,7 +1,8 @@
 .footer {
-    // height: 254px;
+    // padding-left: 20px;
     margin-top: 70px;
     &__logo {
+        // padding-left: 9px;
         object-fit: scale-down;
         height: auto;
         width: 209px;
@@ -26,5 +27,8 @@
             text-decoration: none;
             color: #F8B500;
         }
+    }
+    span {
+        display: block;
     }
 }
