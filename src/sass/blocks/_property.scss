@@ -1,10 +1,6 @@
 .property {
     margin-top: 38px;
-    &__title {
-        // padding-left: 20px;
-    }
     &__wrap-top {
-        // padding-left: 5px;
         margin-top: 60px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);

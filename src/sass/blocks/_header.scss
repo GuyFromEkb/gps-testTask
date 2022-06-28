@@ -1,11 +1,10 @@
 .header {
     padding: 20px 0;
-    // padding: 20px 0 20px 18px;
     &__wrap {
         display: flex;
         justify-content: space-between;
     }
-    &__wrap-logo {
+    &__wrap_logo {
         display: flex;
         gap: 45px;
         align-items: center;

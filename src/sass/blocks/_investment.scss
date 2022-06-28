@@ -37,14 +37,14 @@
         display: grid;
         grid-template-columns: 175px 140px 194px;
         column-gap: 116px;
-        &-item {
+        &_item {
             position: relative;
             height: 210px;
             &:first-child {
                 height: 221px;
             }
         }
-        &-procent {
+        &_procent {
             margin: 20px auto;
             text-align: center;
             border: solid 2px #fff;
@@ -60,8 +60,8 @@
                 line-height: 37px;
             }
         }
-        &-header,
-        &-footer {
+        &_header,
+        &_footer {
             font-weight: 600;
             font-size: 18px;
             line-height: 22px;
@@ -71,7 +71,7 @@
                 display: block;
             }
         }
-        &-footer {
+        &_footer {
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -86,7 +86,7 @@
         .procent-three {
             width: 185px;
         }
-        &-line {
+        &_line {
             top: 50%;
             transform: translateY(-50%);
             right: -57px;

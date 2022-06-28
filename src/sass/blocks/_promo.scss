@@ -19,7 +19,7 @@
         line-height: 70px;
         text-transform: uppercase;
     }
-    &__descr-first {
+    &__descr_first {
         margin-top: 14px;
         text-transform: uppercase;
         font-weight: 300;
@@ -38,21 +38,21 @@
         font-size: 56px;
         line-height: 60px;
     }
-    &__descr-second {
+    &__descr_second {
         margin-top: 30px;
         font-weight: 400;
         font-size: 24px;
         line-height: 33px;
-        .first-span,
-        .second-span {
+        .span_first,
+        .span_second {
             color: $orange;
             font-weight: 700;
             font-size: 24px;
         }
-        .first-span {
+        .span_first {
             line-height: 33px;
         }
-        .second-span {
+        .span_second {
             margin-top: 10px;
             display: block;
             line-height: 29px;
@@ -65,7 +65,7 @@
         background-color: $orange;
         border-radius: 30px;
         box-shadow: 10px 25px 45px rgba(0, 0, 0, 0.15);
-        &-title {
+        &_title {
             padding-left: 5px;
             text-align: center;
             font-weight: 800;
@@ -84,7 +84,7 @@
                 text-transform: uppercase;
             }
         }
-        &-descr {
+        &_descr {
             margin-top: 10px;
             text-align: center;
             font-weight: 600;
